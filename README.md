@@ -65,8 +65,14 @@ If you are not using PostgreSQL database, add line below and type the name of yo
 
 Click one of the navigation options, you will be automatically redirected to login page.
 
-![/img/nav.png]()
+![](img/nav.png)
 
-Go to register page. Enter your email and password, then click confirmation link that will be send to your email address. 
+Once you are on a login page click link on the bottom of login form in order to go to register page
+
+![](img/login.png)
+
+On register page enter your email and password and then confirm your account via confirmation link that will be sent to your email address
+
+![](img/register.png)
 
 Go to home page and select products that you want to buy. 
