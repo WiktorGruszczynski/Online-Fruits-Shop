@@ -21,19 +21,7 @@ function Home() {
         const json_response: Array<StoreProduct> = await response.json()
         
         // filter in order to remove NULL elements
-        var tmp = json_response.filter(n=>n);
-
-        tmp=tmp.map(product => {
-            return {
-                id: product.id,
-                price: product.price,
-                thumbnail: product.thumbnail.replace("http://localhost:8080","http://192.168.0.116:8080"),
-                name: product.name,
-                availability: product.availability
-            }
-        })
-
-        setProducts(tmp);
+        setProducts(json_response.filter(n=>n));
 
     }
 
