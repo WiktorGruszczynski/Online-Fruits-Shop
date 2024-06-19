@@ -69,10 +69,10 @@ Click one of the navigation options, you will be automatically redirected to log
 
 Once you are on a login page click link on the bottom of login form in order to go to register page
 
-![](img/login.png)
+<img src="img/login.png" width="55%">
 
 On register page enter your email and password and then confirm your account via confirmation link that will be sent to your email address
 
-![](img/register.png)
+<img src="img/register.png" width="55%">
 
 Go to home page and select products that you want to buy. 
