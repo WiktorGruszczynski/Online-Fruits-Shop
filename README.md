@@ -2,7 +2,7 @@
 
 ## About
 
-**Fruits Market** is an interactive shopping website that allows user to purchase the various fruits available. These fruits can be added to shopping cart and then after purchasing, the shopping cart products will be available as an order in `/orders` subpage. All orders are indexed by the date they were purchased. The fruits dispalyed on website are taken from database. Individual products can be added to that database using `Admin Panel`
+**Fruits Market** is an interactive and responsive shopping website that allows user to purchase the various fruits available. These fruits can be added to shopping cart and then after purchasing, the shopping cart products will be available as an order in `/orders` subpage. All orders are indexed by the date they were purchased. The fruits dispalyed on website are taken from database. Individual products can be added to that database using `Admin Panel`
 
 
 ## Technologies
@@ -73,14 +73,25 @@ Click one of the navigation options, you will be automatically redirected to log
 
 ![](img/nav.png)
 
-Once you are on a login page click link on the bottom of login form in order to go to register page
-
-<img src="img/login.png" width="45%">
-
+Once you are on a login page click link on the bottom of login form in order to go to register page.
 On register page enter your email and password and then confirm your account via confirmation link that will be sent to your email address
 
-<img src="img/register.png" width="45%">
+<img src="img/login-and-register.png">
 
-Go to home page and select products that you want to buy. 
+<br>
+
+If you are signed in, you can go to home page and select products that you want to buy.
+You can enter the quantity of choosen fruit or change that amount by clicking `minus` or `plus` buttons. 
 
 <img src="img/home.png">
+<br>
+
+After adding the fruit, it will be visible in `/cart` section that can be accesed via navigation icon. That section is a products cart, there are all products that have not been orderet yet.
+If you added any product by mistake, you can simply remove by clicking a bin icon. If you want to purchase the content of your shopping cart, you only have to click `purchase` button. After that, all products should dissapear from your cart.
+
+<img src="img/cart.png">
+
+If you purchased list of your products, then the products should appear in `/orders` subpage. Here you can see all of your orders, they are sorted by the date of purchase.
+For each order is displayed only the title with date when it was purchased, to see content of order you have to click the button in shape of triangle located on the right side of your screen.
+
+<img src="img/orders.png">
