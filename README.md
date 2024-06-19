@@ -3,7 +3,7 @@
 
 ## About
 
-**Fruits Market** is an interactive shopping website that allows user to purchase the various fruits available. These fruits can be added to shopping cart and then after purchasing, the shopping cart products will be available as an order in `orders` subpage. All orders are indexed by the date they were purchased. The fruits dispalyed on website are taken from database. Individual products can be added to that database using `Admin Panel`
+**Fruits Market** is an interactive shopping website that allows user to purchase the various fruits available. These fruits can be added to shopping cart and then after purchasing, the shopping cart products will be available as an order in `/orders` subpage. All orders are indexed by the date they were purchased. The fruits dispalyed on website are taken from database. Individual products can be added to that database using `Admin Panel`
 
 
 ## Technologies
@@ -30,10 +30,10 @@ Go to `client` directory
 
 Use following command to install frontend dependencies
 
-- ### `npm install`
+- #### `npm install`
 
 Use following command to run react app
-- ### `npm start`
+- #### `npm start`
 
 ### Backend
 
@@ -61,3 +61,5 @@ spring.mail.properties.mail.smtp.starttls.enable = true
 
 If you are not using PostgreSQL database, add line below and type the name of your dialect
 `spring.jpa.properties.hibernate.dialect = TYPE YOUR DIALECT HERE`
+
+## How to use
