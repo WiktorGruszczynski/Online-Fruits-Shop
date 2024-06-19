@@ -61,18 +61,26 @@ spring.mail.properties.mail.smtp.starttls.enable = true
 If you are not using PostgreSQL database, add line below and type the name of your dialect
 `spring.jpa.properties.hibernate.dialect = TYPE YOUR DIALECT HERE`
 
+### Database
+
+Add products through admin panel, to open admin panel go to `/admin` subpage. Toggle switched to the right of save buttons are used for setting product visibility in store
+
+<img src="img/admin edit.png">
+
 ## How to use
 
-Click one of the navigation options, you will be automatically redirected to login page.
+Click one of the navigation options, you will be automatically redirected to login page. 
 
 ![](img/nav.png)
 
 Once you are on a login page click link on the bottom of login form in order to go to register page
 
-<img src="img/login.png" width="55%">
+<img src="img/login.png" width="45%">
 
 On register page enter your email and password and then confirm your account via confirmation link that will be sent to your email address
 
-<img src="img/register.png" width="55%">
+<img src="img/register.png" width="45%">
 
 Go to home page and select products that you want to buy. 
+
+<img src="img/home.png">
