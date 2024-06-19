@@ -1,0 +1,32 @@
+*{
+    --circle-size: 32px;
+    --switch-width: 64px;
+    --switch-transition: 250ms ease-in-out
+}
+
+.switch{
+    width: var(--switch-width);
+    height: var(--circle-size);
+    padding: 6px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 1000px;
+    cursor: pointer;
+    transition: var(--switch-transition);
+}
+
+.circle{
+    border-radius: 100%;
+    background-color: white;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    transition: var(--switch-transition);
+    left: 0;
+}
+
+.switch.active{
+    background-color: var(--blue-color);
+}
+
+.switch.active .circle{
+    transform: translateX( calc( var(--switch-width) - var(--circle-size) ) );
+}

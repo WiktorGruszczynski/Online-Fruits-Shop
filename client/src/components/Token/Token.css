@@ -1,0 +1,52 @@
+.token-wrapper{
+    width: 520px;
+    height: 266px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    padding: 14px;
+    gap: 18px;
+}
+
+.token-header{
+    width: 75%;
+    height: 60px;
+    border-radius: 45px;
+    font-size: 2rem;
+}
+
+.input-wrapper{
+    width: 80%;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apply{
+    width: 55%;
+    height: 60px;
+    border-radius: 45px;
+    font-size: 2rem;
+    transition: 200ms ease-in-out;
+    background-color: var(--blue-color);
+}
+
+.apply:hover{
+    filter: contrast(3.05);
+}
+
+
+.token-warning{
+    height: 0;
+    transform: translateY(-8px);
+    opacity: 1;
+    transition: 200ms;
+}
+
+.token-warning.hidden{
+    display: flex !important;
+    opacity: 0;
+}

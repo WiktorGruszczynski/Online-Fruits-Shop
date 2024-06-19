@@ -1,0 +1,74 @@
+.product-edit-box{
+    height: 96px;
+    border-top: 4px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.value-cell{
+    color: aliceblue;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-size: 1.8rem;
+    gap: 24px;
+}
+
+.value-cell.editable{
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.value-cell.editable:hover{
+    background-color: rgba(0,0,0,.15);
+}
+
+.edit-save{
+    width: 96px;
+    height: 48px;
+    border-radius: 22px;
+    background-color: var(--blue-color);
+    transition: 200ms;
+    font-size: 1.25rem;
+}
+
+.edit-save:hover{
+    filter: contrast(2.3);
+}
+
+.c-pointer{
+    cursor: pointer;
+}
+
+
+.value-cell input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.8rem;
+}
+
+.image-input{
+    display: none;
+}
+
+.thumbnail-preview{
+    color: #999FAF;
+}
+
+.edit-bin{
+    fill: var(--red);
+    transition: 200ms ease-in-out;
+}
+
+.edit-bin:hover{
+    filter: brightness(.75);
+
+}

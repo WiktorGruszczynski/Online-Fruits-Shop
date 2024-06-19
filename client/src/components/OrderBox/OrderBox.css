@@ -1,0 +1,42 @@
+.order-box{
+    width: 100%;
+}
+
+.order-title{
+    height: 80px;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid var(--dark);
+    display: flex;
+    justify-content: center;
+}
+
+.order-title-content{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.triangle-area{
+    width: 150px;
+    height: 100%;
+}
+
+.triangle-icon{
+    fill: var(--dark);
+    cursor: pointer;
+    transform-origin: center;
+    transition: 200ms ease-in-out;
+}
+
+.triangle-icon.rotated{
+    transform: rotate(90deg);
+}
+
+
+.order-content.hidden{
+    display: none;
+}

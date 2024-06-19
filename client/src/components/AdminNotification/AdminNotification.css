@@ -1,0 +1,44 @@
+@keyframes smooth-appear {
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+.admin-notification{
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    top: 55%;
+    transform: translateY(-50%);
+    right: 32px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: smooth-appear .3s ease forwards;
+    z-index: 100;
+}
+
+.admin-notification.succes{
+    background-color: rgb(33, 133, 83);
+    box-shadow: 0 0 25px 3px #44e273;
+}
+
+.admin-notification.failure{
+    background-color: rgb(133, 33, 33);
+    box-shadow: 0 0 25px 3px #e24444;
+}
+
+.admin-notification-cross{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+    opacity: .72;
+    transition: 200ms;
+}
+
+.admin-notification-cross:hover{
+    opacity: 1;
+}

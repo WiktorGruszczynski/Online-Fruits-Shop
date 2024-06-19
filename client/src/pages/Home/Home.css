@@ -1,0 +1,28 @@
+*{
+    --grid-items-in-row: 4;
+}
+
+@media screen and (max-width: 1450px){
+    *{
+        --grid-items-in-row: 3;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    *{
+        --grid-items-in-row: 2;
+    }
+}
+@media screen and (max-width: 700px){
+    *{
+        --grid-items-in-row: 1;
+    }
+}
+
+
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(var(--grid-items-in-row), 1fr);
+}
+
